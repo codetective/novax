@@ -5,6 +5,7 @@ import TopContactBar from './components/general/TopContactBar';
 import Header from './components/Header';
 import About from './components/About';
 import Features from './components/Features';
+import Tokenomics from './components/Tokenomics';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Header />
         <About />
         <Features />
+        <Tokenomics />
       </Box>
     </ChakraProvider>
   );

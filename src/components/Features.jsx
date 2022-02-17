@@ -18,11 +18,11 @@ export default function Features() {
           <SimpleGrid columns={[1, 1, 3]} spacing="10">
             <Box py="10">
               <Box>
-                <Stack spacing="5">
+                <Stack spacing="8">
                   <Center>
                     <Icon as={GiGamepad} fontSize={'48px'} />
                   </Center>
-                  <Text as="h2" fontSize={'23px'} textTransform={'uppercase'}>
+                  <Text as="h2" fontSize={'25px'} textTransform={'uppercase'}>
                     INCREDIBLE ATMOSPHERE
                   </Text>
                   <Text as="p" fontSize={'17px'}>
@@ -35,11 +35,11 @@ export default function Features() {
 
             <Box py="10">
               <Box>
-                <Stack spacing="5">
+                <Stack spacing="8">
                   <Center>
                     <Icon as={AiFillFire} fontSize={'48px'} />
                   </Center>
-                  <Text as="h2" fontSize={'23px'} textTransform={'uppercase'}>
+                  <Text as="h2" fontSize={'25px'} textTransform={'uppercase'}>
                     Catchy Battles
                   </Text>
                   <Text as="p" fontSize={'17px'}>
@@ -52,11 +52,11 @@ export default function Features() {
             </Box>
             <Box py="10">
               <Box>
-                <Stack spacing="5">
+                <Stack spacing="8">
                   <Center>
                     <Icon as={IoIosRibbon} fontSize={'48px'} />
                   </Center>
-                  <Text as="h2" fontSize={'23px'} textTransform={'uppercase'}>
+                  <Text as="h2" fontSize={'25px'} textTransform={'uppercase'}>
                     Exciting Rewards
                   </Text>
                   <Text as="p" fontSize={'17px'}>

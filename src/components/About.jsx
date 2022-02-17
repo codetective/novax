@@ -37,7 +37,7 @@ export default function About() {
   return (
     <Box bg="#0e0e0e" color={'white'} id="about" py="80px">
       <WrapContent>
-        <Box as={Stack} spacing="40px" textAlign={'center'}>
+        <Box as={Stack} spacing="50px" textAlign={'center'}>
           <Text as="h2" fontSize="5xl">
             About The Game
           </Text>
@@ -51,7 +51,7 @@ export default function About() {
             as NFTs in the game and exchanged for tokens in our official NFT
             marketplace.
           </Text>
-          <SimpleGrid columns={[1, 1, 3]} spacing="10">
+          <SimpleGrid columns={[1, 1, 3]} spacing="10" pt="20px">
             {/* <!-- START: Counter --> */}
             <Box py="10">
               <Box>

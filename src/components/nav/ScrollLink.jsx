@@ -5,11 +5,11 @@ export const ScrollToTop = () => {
   scroll.scrollToTop();
 };
 
-export default function ScrollLink({ children }) {
+export default function ScrollLink({ children, to }) {
   return (
     <Link
       activeClass="active"
-      to="section1"
+      to={to}
       spy={true}
       smooth={true}
       offset={-70}

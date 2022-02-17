@@ -1,4 +1,4 @@
-import { HStack, Text } from '@chakra-ui/react';
+import { HStack, Link, Text } from '@chakra-ui/react';
 import ScrollLink from './ScrollLink';
 
 function NavMD() {
@@ -9,33 +9,32 @@ function NavMD() {
           NovaX
         </Text>
       </ScrollLink>
-      <HStack spacing="6" alignItems="center">
-        <ScrollLink to="/about">
-          <Text cursor={'pointer'} as="a" display="block">
+      <HStack spacing="10" alignItems="center">
+        <ScrollLink to="about">
+          <Text cursor={'pointer'} as="a" fontSize={'20px'} display="block">
             About
           </Text>
         </ScrollLink>
-        <ScrollLink to="/focus">
-          <Text cursor={'pointer'} as="a">
-            Focus
+        <ScrollLink to="features">
+          <Text cursor={'pointer'} as="a" fontSize={'20px'}>
+            Features
           </Text>
         </ScrollLink>
-        <ScrollLink to="/beneficiaries">
-          <Text cursor={'pointer'} as="a">
-            Beneficiaries
+        <ScrollLink to="tokenomics">
+          <Text cursor={'pointer'} as="a" fontSize={'20px'}>
+            Tokenomics
           </Text>
         </ScrollLink>
-        <ScrollLink to="/news">
-          <Text cursor={'pointer'} as="a">
-            News
+        <Link href="#" isExternal target={'_blank'}>
+          <Text fontSize={'20px'} as="a" cursor={'pointer'}>
+            Contract
           </Text>
-        </ScrollLink>
-
-        <ScrollLink to="/gallery">
-          <Text cursor={'pointer'} as="a">
-            Gallery
+        </Link>
+        <Link href="#" isExternal target={'_blank'}>
+          <Text fontSize={'20px'} as="a" cursor={'pointer'}>
+            Docs
           </Text>
-        </ScrollLink>
+        </Link>
       </HStack>
     </>
   );

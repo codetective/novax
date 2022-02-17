@@ -6,6 +6,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Features from './components/Features';
 import Tokenomics from './components/Tokenomics';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Features />
         <Tokenomics />
+        <Footer />
       </Box>
     </ChakraProvider>
   );

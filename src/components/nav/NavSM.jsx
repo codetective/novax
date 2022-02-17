@@ -1,4 +1,4 @@
-import { IconButton, useDisclosure, Link } from '@chakra-ui/react';
+import { IconButton, useDisclosure, Link, Text } from '@chakra-ui/react';
 
 import { BiMenuAltLeft } from 'react-icons/bi';
 import NavSMDrawer from './NavSMDrawer';
@@ -11,7 +11,9 @@ function NavSM() {
       <NavSMDrawer isOpen={isOpen} onClose={onClose} />
 
       <Link onClick={ScrollToTop} href="/">
-        NovaX
+        <Text as="a" cursor={'pointer'} fontSize={'3xl'}>
+          NovaX
+        </Text>
       </Link>
       <IconButton
         onClick={onOpen}

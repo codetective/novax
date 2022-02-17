@@ -30,7 +30,7 @@ body {
   background: #000 !important;
 }
 #app {
-  animation-duration: 100000s;
+  animation-duration: 15000s;
   animation-iteration-count: infinite;
   animation-name: SCROLL-BG;
   animation-timing-function: linear;

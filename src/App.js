@@ -3,6 +3,7 @@ import { Box, ChakraProvider, theme } from '@chakra-ui/react';
 import Navbar from './components/nav/Navbar';
 import TopContactBar from './components/general/TopContactBar';
 import Header from './components/Header';
+import About from './components/About';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <TopContactBar />
         <Navbar />
         <Header />
+        <About />
       </Box>
     </ChakraProvider>
   );

@@ -20,12 +20,11 @@ export default function Tokenomics() {
             Our Token is Designed to always Reward the Holders and Players.
           </Text>
           <Text fontSize={'17px'}>
-            $NovaX serves as the native currency for Metakings. Players use
-            $NovaX to mint characters, mint arenas, extending the lives of your
-            characters by hiring and Buy/Sell on the Metakings Marketplace.
-            There is a maximum supply of 1,000,000,000 $NovaX tokens. Liquidity
-            will be locked and the Game rewards will be vested for 6 months.
-            Please proceed to the Docs for more information.
+            $NoX serves as the native currency for NovaX. Players use $NoX to
+            mint characters, mint arenas, extending the lives of your characters
+            by hiring and Buy/Sell on the NovaX Marketplace. There is a maximum
+            supply of 100,000,000 $NoX tokens. Liquidity will be locked and the
+            Game rewards will be realized by percentage every month.
           </Text>
           <br />
           <Button

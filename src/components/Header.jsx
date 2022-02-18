@@ -99,12 +99,12 @@ const Header = () => {
           <Box py="5">
             <Button
               border={'1px solid'}
-              p="1em 2em"
+              px="8"
               className="pulse pulseButton exo"
               bg="none"
               fontSize={'20px'}
             >
-              Buy NovaX
+              Buy $NoX
             </Button>
           </Box>
         </Box>
